@@ -17,7 +17,7 @@ for FILENAME, DETAILS, LIBS in (summary):
     row += 1
 
 
-temp=glob.glob('../*.py')
+temp=glob.glob('*.py')
 for temps in temp:
 #search for all the lines in string  with import text and store the line number in line variable
     findString='import '
